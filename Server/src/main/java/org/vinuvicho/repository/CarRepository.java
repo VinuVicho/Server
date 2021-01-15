@@ -18,7 +18,7 @@ public class CarRepository {
         savedCars = new ArrayList<>();
     }
 
-    private static Long lastId = 1L;
+    private static Long lastId = 0L;
     private static List<Car> savedCars;
 
     public Car getCarById(final Long id){
