@@ -17,7 +17,7 @@ public class ItemRepository {
         savedItems = new ArrayList<>();
     }
 
-    private static Long lastId = 1L;
+    private static Long lastId = 0L;
     private List<Item> savedItems;
 
     public Item getItemById(final Long id){
